@@ -4,12 +4,15 @@ export const Container = styled.div`
     height: 100vh;
     background-size: cover;
     background-position: center;
+    
 `
 
 export const FeaturedVertical = styled.div`
     height: inherit;
     width: inherit;
     background: linear-gradient(to top, #111 10%, transparent 90%);
+
+    
 `
 
 export const FeaturedHorizontal = styled.div`
@@ -24,6 +27,7 @@ export const FeaturedHorizontal = styled.div`
 
     @media(max-width: 760px){
         padding-left: 20px;
+        background: transparent;
     }
 
 
